@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+header ul li{
+  @apply px-3;
+}
+.bg-head{
+  background-color: blueviolet;
+}
+.heroView{
+  @apply bg-blue-500;
+  
+
+}
+.mobile-view{
+  @apply  fixed top-10 left-0 bg-slate-600 w-full h-1/4; 
+} 
+
+.ContactView{
+  @apply bg-orange-400;
+}
+/* .mobile-view{
+  @apply w-full text-center border-b-2 ;
+} */
+/* .socail-media{
+  @apply ;
+} */
+
+.bg-About{
+  @apply bg-purple-700;
+}
+.project-desc{
+  @apply absolute right-0 left-0 bottom-0 top-0 opacity-0 duration-300 heroView hover:opacity-100;
+}
