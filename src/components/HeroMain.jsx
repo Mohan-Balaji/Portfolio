@@ -1,5 +1,5 @@
 import HeroIMG from '../assets/heroimg.png';
-import { BsTwitterX ,BsGithub,BsInstagram,BsLinkedin,BsReddit} from "react-icons/bs";
+import { BsTwitterX ,BsGithub,BsInstagram,BsLinkedin,BsReddit} from "react-icons/bs"; 
 export default function HeroMain()
     {
         return   <section className='flex flex-col md:flex-row px-3 py-32 heroView justify-center'>
@@ -16,4 +16,4 @@ export default function HeroMain()
         </div>
         <img  className='md:w-1/4' src={HeroIMG}></img>
     </section>
-}
+}   
