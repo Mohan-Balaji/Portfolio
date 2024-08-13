@@ -28,18 +28,20 @@ export default function Contact() {
 
         if (res.success) {
             setIsSuccess(true);
-            setShowAlert(true); // Show success alert
+            setShowAlert(true);
             reset();
-            setTimeout(() => setShowAlert(false), 3000); // Hide after 3 seconds
+            setTimeout(() => setShowAlert(false), 3000);
         } else {
             setErrorMessage("Something went wrong. Please try again later.");
-            setShowAlert(true); // Show error alert
-            setTimeout(() => setShowAlert(false), 3000); // Hide after 3 seconds
+            setShowAlert(true); 
+            setTimeout(() => setShowAlert(false), 3000); 
         }
     };
 
     return (
-        <div className="max-w-lg mx-auto p-6 bg-white shadow-md rounded-lg">
+    <section className="flex-auto px-2">
+        <div className="py-12 max-w-lg mx-auto p-6 bg-white shadow-md rounded-lg">
+            <h1 className="text-center text-5xl font-bold mb-4">CONTACT US </h1>
             {showAlert && (
                 <Alert icon={<CheckIcon fontSize="inherit" />} severity={isSuccess ? "success" : "error"}>
                     {isSuccess ? "Your message has been sent successfully!" : errorMessage}
@@ -86,5 +88,6 @@ export default function Contact() {
                 </div>
             </form>
         </div>
+ </section>
     );
 }
