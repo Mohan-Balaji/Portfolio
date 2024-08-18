@@ -9,9 +9,9 @@ export default function HeroMain()
         </h1>
         <div className='flex flex-row px-1 py-5'>
             <a href=''target="_blank" className='pr-4 text-4xl hover:text-white'><BsTwitterX /></a>
-            <a href='#'className='pr-4 text-4xl hover:text-white'><BsGithub/></a>
+            <a href='https://github.com/Mohan-Balaji/' target="_blank" className='pr-4 text-4xl hover:text-white'><BsGithub/></a>
             <a href='#' target="_blank" className='pr-4 text-4xl hover:text-white'><BsReddit /></a>
-            <a href='#'className='pr-4 text-4xl hover:text-white'><BsLinkedin/></a>
+            <a href='https://www.linkedin.com/in/mohanbalaji2004/' target="_blank" className='pr-4 text-4xl hover:text-white'><BsLinkedin/></a>
         </div>
         </div>
         <img  className='md:w-1/4' src={HeroIMG}></img>
