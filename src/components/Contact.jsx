@@ -13,7 +13,7 @@ export default function Contact() {
     const onSubmit = async (data) => {
         setIsLoading(true);
 
-        data.access_key = "f137c32d-7179-495a-8cb1-cdc1839ab5f2";
+        data.access_key = "yours_api";
 
         const res = await fetch("https://api.web3forms.com/submit", {
             method: "POST",
