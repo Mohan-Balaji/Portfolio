@@ -6,12 +6,15 @@ header ul li{
   @apply px-3;
 }
 .bg-head{
-  background-color: blueviolet;
+  @apply bg-black text-white;
 }
 .heroView{
-  @apply bg-blue-500;
+  @apply bg-black text-white;
   
 
+}
+.my-element {
+  
 }
 .mobile-view{
   @apply  fixed top-10 right-0 bg-slate-600 w-1/5 h-1/3 py-4; 
@@ -28,7 +31,7 @@ header ul li{
 } */
 
 .bg-About{
-  @apply bg-purple-700;
+  @apply bg-black text-white;
 }
 .project-desc{
   @apply absolute right-0 left-0 bottom-0 top-0 opacity-0 duration-300 heroView hover:opacity-100;

@@ -1,7 +1,7 @@
-import AboutImg from '../assets/heroimg.png';
+import AboutImg from '../assets/bg.png';
 function About()
 {
-    return<section className='flex flex-col md:flex-row bg-About h-full'>
+    return<section className='flex flex-col md:flex-row bg-About h-full spcae-y-'>
         <div className='md:w-1/2 px-5 py-5 '>
             <img src={AboutImg}/>
         </div>
