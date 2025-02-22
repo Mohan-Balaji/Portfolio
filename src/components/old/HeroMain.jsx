@@ -89,7 +89,7 @@ const SplitText = ({
 // HeroMain component
 export default function HeroMain() {
   return (
-    <section className='flex flex-col md:flex-row px-3 py-32 heroView justify-center'>
+    <section className='flex flex-col md:flex-row px-3 py-32 heroView justify-center font-[Vogue1]'>
       <div className='md:w-1/2 flex flex-col px-5'>
         <h1 className='text-white text-6xl font-main-font'>
           <SplitText text="HI, I am" className="text-white" />
